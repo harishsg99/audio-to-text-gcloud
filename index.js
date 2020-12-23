@@ -5,11 +5,11 @@ const fs = require('fs');
 // Instead, we can use the 'busboy' library from NPM to parse these requests.
 const Busboy = require('busboy');
 const Speech = require('@google-cloud/speech');
-
+const http = require('http');
 const ENCODING = 'LINEAR16';
 const SAMPLE_RATE_HERTZ = 41000;
 const LANGUAGE = 'en-US';
-
+const port = process.env.PORT || 3000
 const audioConfig = {
     encoding: ENCODING,
     sampleRateHertz: SAMPLE_RATE_HERTZ,
