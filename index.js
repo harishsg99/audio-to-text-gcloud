@@ -9,7 +9,7 @@ const http = require('http');
 const ENCODING = 'LINEAR16';
 const SAMPLE_RATE_HERTZ = 41000;
 const LANGUAGE = 'en-US';
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 8080
 const audioConfig = {
     encoding: ENCODING,
     sampleRateHertz: SAMPLE_RATE_HERTZ,
