@@ -24,6 +24,9 @@
     "Cloud Functions",
     "GCP"
   ],
+  "engines": {
+    "node": "10.x"
+  },
   "author": "Foster Made",
   "license": "ISC",
   "bugs": {
