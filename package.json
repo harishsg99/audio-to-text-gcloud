@@ -4,7 +4,7 @@
   "description": "Audio-to-Text is a Google Cloud Function triggered by an HTTP request that calls the Google Cloud Speech API",
   "main": "index.js",
    "scripts": {
-  "start": "node  index.js"
+  "start": "node index.js"
 },
   "dependencies": {
     "busboy": "^0.3.0",
